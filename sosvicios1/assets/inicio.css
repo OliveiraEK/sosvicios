@@ -1,0 +1,57 @@
+#navbarBasicExample{
+    margin-top: 30px;
+}
+
+.tratamentos1:hover {
+    transition: 1s;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(43, 183, 226, 0.233);
+}
+.tratamentosog{
+    transition: 1s;
+    cursor: pointer;
+    
+}
+#tratamento_tittle{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.tratamentos{
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    transition: 1s;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    width: 250px;
+    color: rgb(130, 189, 243);
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 15px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a{
+    margin-top: 20px;
+}
+.bgSizeContain {
+    height: 400px;
+    background-image: url(/IMAGES/alcoolismo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid darkgray;
+    color: #000; text-shadow: 1px 1px 0 #fff;
+  }
+  
