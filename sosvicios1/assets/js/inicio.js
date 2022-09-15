@@ -1,9 +1,9 @@
 function mouseOver () {
-    document.getElementById("exemplo").classList.add('tratamentos1')
+    document.getElementById("tratamentos1").classList.add('tratamentos1')
 }
 
 function mouseOut () {
-    document.getElementById("exemplo").classList.add('tratamentosog');
+    document.getElementById("tratamentos1").classList.add('tratamentosog');
 }
 function mouseOver2 () {
     document.getElementById("tratamentos2").classList.add('tratamentos1')
