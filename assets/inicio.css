@@ -1,5 +1,9 @@
+
 #navbarBasicExample{
     margin-top: 30px;
+}
+.a{
+  margin-bottom: 120px;
 }
 .bgSizeContain {
   height: 500px;
@@ -11,10 +15,14 @@
   color: #000; text-shadow: 1px 1px 0 #fff;
   margin-bottom: 100px;   
 }
+
 .tratamentos{
     text-align: center;
     display:flex;
     justify-content: space-evenly;
+    background-color: #EFEFEF;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .tratamentos1{
@@ -30,7 +38,7 @@
 #tratamento_tittle{
     font-size: 50px;
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
     color: #3b3838;
     font-family:'Times New Roman', Times, serif ;
 }
@@ -75,21 +83,48 @@
     height: 400px; 
   }
 
-  .unidades_titulo{
-    justify-content: center;
+  .botao {
+    background: #1ED064;
+    background-image: -webkit-linear-gradient(top, #1ED064, #3DF66B);
+    background-image: -moz-linear-gradient(top, #1ED064, #3DF66B);
+    background-image: -ms-linear-gradient(top, #1ED064, #3DF66B);
+    background-image: -o-linear-gradient(top, #1ED064, #3DF66B);
+    background-image: -webkit-gradient(to bottom, #1ED064, #3DF66B);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 32px;
+    font-weight: 200;
+    padding: 12px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #FFFFFF;
+    border: solid #000000 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
     text-align: center;
-    font-size: 70px;
-    color: #3b3838;
-    margin-bottom: 50px;
-  }
-  .botao{
-    width: 200px;
-    border-radius: 100px;
-    margin-left: 200px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    background-color: #25d366;
-  }
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 170px;
+ }
+ 
+ .botao:hover {
+    border: solid #000000 1px;
+    background: #1ED06C;
+    background-image: -webkit-linear-gradient(top, #1ED06C, #3DF697);
+    background-image: -moz-linear-gradient(top, #1ED06C, #3DF697);
+    background-image: -ms-linear-gradient(top, #1ED06C, #3DF697);
+    background-image: -o-linear-gradient(top, #1ED06C, #3DF697);
+    background-image: -webkit-gradient(to bottom, #1ED06C, #3DF697);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
   .whatswidget-widget-wrapper {
     font-family: "Helvetica Neue", "Apple Color Emoji", Helvetica, Arial, sans-serif !important;
     font-size: 16px !important;
@@ -252,6 +287,47 @@
     opacity: 0.5 !important
   }
 
+  
+.unidades_titulo{
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  color: #3b3838;
+  margin-top: 0px;
+  padding-top: 30px;
+  margin-bottom: 50px;
+  font-family:'Times New Roman', Times, serif ;
+  
+ }
+.unidades{
+  
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.unidades_coluna1{
+  display: flex;
+  justify-content: space-evenly;
+  border-top-left-radius: 100px; 
+  border-top-right-radius: 100px;
+}
+.unidades_coluna2{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.unidades_imgs{
+  margin-bottom: 20px;
+  cursor: pointer;
+  padding: 10px;
+  transition: 1s;
+  border-radius: 20px;
+}
+.unidades_imgs:hover{
+  transition: 1s;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
 
 
   @keyframes go-back {
@@ -262,3 +338,5 @@
       transform: translateX(0);
     }
   }
+
+  
